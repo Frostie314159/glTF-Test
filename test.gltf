@@ -1,0 +1,174 @@
+{
+    "asset" : {
+        "copyright" : "me",
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cube",
+            "rotation" : [
+                0.1146051362156868,
+                0.06239230930805206,
+                0.05061948299407959,
+                0.9901568293571472
+            ],
+            "scale" : [
+                1.1835097074508667,
+                1.1835097074508667,
+                1.1835097074508667
+            ],
+            "translation" : [
+                0.5661863088607788,
+                0.3850302994251251,
+                -1.756409764289856
+            ]
+        },
+        {
+            "name" : "Light",
+            "rotation" : [
+                -0.09563373029232025,
+                0.02829134464263916,
+                -0.7887834310531616,
+                0.606526792049408
+            ],
+            "scale" : [
+                6.968752861022949,
+                6.968752861022949,
+                6.968752861022949
+            ],
+            "translation" : [
+                4.675025939941406,
+                5.195554256439209,
+                -2.187343120574951
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.33094534277915955,
+                0.18156491219997406,
+                -0.2860174775123596,
+                0.880740225315094
+            ],
+            "scale" : [
+                1.05233895778656,
+                1.05233895778656,
+                1.05233895778656
+            ],
+            "translation" : [
+                7.7479166984558105,
+                4.631624698638916,
+                5.97652006149292
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 768
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 840,
+            "uri" : "test.bin"
+        }
+    ]
+}
